@@ -119,7 +119,7 @@ export default function NavBar() {
           onClick={() => navigate("/")}
         >
           <img
-            src="../../../public/logo.png"
+            src="/logo.png"
             alt="Logo"
             height="40"
             className="me-2"
