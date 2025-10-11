@@ -45,9 +45,9 @@ export default function TopBarView(props) {
             </div>
 
             <div className="roadmap-header">
-                <h1 className="roadmap-title">Frontend Developer</h1>
+                <h1 className="roadmap-title">{roadmap.name}</h1>
                 <p className="roadmap-subtitle">
-                    Step by step guide to becoming a modern frontend developer in 2025
+                    {roadmap.id}
                 </p>
             </div>
 
