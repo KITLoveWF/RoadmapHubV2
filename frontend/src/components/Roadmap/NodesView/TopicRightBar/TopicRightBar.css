@@ -159,6 +159,7 @@
   margin: 0;
   line-height: 1.4;
   padding: 0;
+  word-break: break-word;
 }
 
 /* Topic Description as Paragraph - No background, no border */
@@ -169,7 +170,8 @@
   margin: 0;
   padding: 0;
   max-height: 200px;
-  overflow-y: auto;
+  /* overflow-y: auto; */
+  word-break: break-word;
 }
 
 /* Feedback Panel */
